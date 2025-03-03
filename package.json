@@ -1,0 +1,26 @@
+{
+  "name": "ts-prompt",
+  "version": "1.0.0",
+  "description": "A simple wrapper around node's readline library",
+  "author": "Chad Chauffe <crchauffe@gmail.com",
+  "main": "lib/prompt.js",
+  "types":"",
+  "scripts": {
+    "clean": "del-cli ./lib",
+    "build": "npm run clean && npx tsc",
+    "prepack": "npm run build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "del-cli": "^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crchauffe/ts-prompt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crchauffe/ts-prompt/issues"
+  },
+  "homepage": "https://github.com/crchauffe/ts-prompt#readme"
+}
