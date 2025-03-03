@@ -4,7 +4,7 @@
   "description": "A simple wrapper around node's readline library",
   "author": "Chad Chauffe <crchauffe@gmail.com",
   "main": "lib/prompt.js",
-  "types":"",
+  "types":"lib/prompt.d.ts",
   "scripts": {
     "clean": "del-cli ./lib",
     "build": "npm run clean && npx tsc",
